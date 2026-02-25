@@ -1,0 +1,30 @@
+# Output directories
+analysis_results/
+*/analysis_results/
+
+# Temporary and backup files
+*~
+*.bak
+*.tmp
+*.swp
+*.swo
+.DS_Store
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-*
+
+# Log files
+*.log
+
+# CSV files (except in examples/)
+/*.csv
+!examples/**/*.csv
+
+# Perl specific
+*.pl.bak
+blib/
+pm_to_blib
+MYMETA.*
+Makefile.old
